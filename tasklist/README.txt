@@ -21,9 +21,9 @@ mvn clean install
 h1. Installation
 
 On karaf 2.x
-features:addurl mvn:net.lr.tasklist/tasklist-features/1.0.0-SNAPSHOT/xml
+features:addurl mvn:net.lr.tasklist/tasklist-features/1.0.0.2/xml
 features:install example-tasklist
 
 On karaf 3 and 4
-feature:repo-add mvn:net.lr.tasklist/tasklist-features/1.0.0-SNAPSHOT/xml
+feature:repo-add mvn:net.lr.tasklist/tasklist-features/1.0.0.2/xml
 feature:install example-tasklist
